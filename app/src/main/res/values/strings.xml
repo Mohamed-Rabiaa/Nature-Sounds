@@ -1,0 +1,34 @@
+<resources>
+
+    <string name="app_name">Nature Sounds</string>
+    <string name="RAIN_TEXT_VIEW_LABEL">Rain</string>
+    <string name="RAIN_ON_Glass_TEXT_VIEW_LABEL">RainOn-\nGlass</string>
+    <string name="OCEAN_WAVES_TEXT_VIEW_LABEL">Ocean-\nWaves</string>
+    <string name="THUNDER_TEXT_VIEW_LABEL">Thunder</string>
+    <string name="WIND_TEXT_VIEW_LABEL">Wind</string>
+    <string name="WIND_ON_TREES_LABEL">WindIn-\nTrees</string>
+    <string name="WATERFALLS_TEXT_VIEW_LABEL">Water-\nfalls</string>
+    <string name="BIRDS_TEXT_VIEW_LABEL">Birds</string>
+    <string name="PLAY_ALL_BUTTON_LABEL">Play All</string>
+    <string name="PAUSE_ALL_BUTTON_LABEL">Pause All</string>
+    <string name="PLAY_TIMER_BUTTON_LABEL">Play Timer</string>
+    <string name="TIMER_DIALOG_TITLE">Choose a duration</string>
+    <string name="CANCEL_BUTTON_LABEL">Cancel</string>
+    <string name="OK_BUTTON_LABEL">Ok</string>
+    <string name="PLAYING_SOUNDS_NOTIFICATION_NAME">Playing Sounds Notification</string>
+    <string name="PLAYING_SOUNDS_NOTIFICATION_DESCRIPTION">Set the playing sounds notification</string>
+    <string name="PLAY_BUTTON_LABEL">Play</string>
+    <string name="PAUSE_BUTTON_LABEL">Pause</string>
+    <string name="STOP_BUTTON_LABEL">Stop</string>
+    <string name="CANCEL_TIMER_LABEL">Cancel Timer</string>
+    <string name="TEN_MINUTES_LABEL">10 minutes</string>
+    <string name="TWENTY_MINUTES_LABEL">20 minutes</string>
+    <string name="THIRTY_MINUTES_LABEL">30 minutes</string>
+    <string name="FOURTY_MINUTES_LABEL">40 minutes</string>
+    <string name="FIFTY_MINUTES_LABEL">50 minutes</string>
+    <string name="ONE_HOUR_LABEL">1 hour</string>
+    <string name="TWO_HOURS_LABEL">2 hours</string>
+    <string name="FOUR_HOURS_LABEL">4 hours</string>
+    <string name="EIGHT_HOURS_LABEL">8 hours</string>
+
+</resources>

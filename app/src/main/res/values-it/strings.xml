@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Suoni Della Natura</string>
+    <string name="RAIN_TEXT_VIEW_LABEL"><font size = "16" >Pioggia</font></string>
+    <string name="RAIN_ON_Glass_TEXT_VIEW_LABEL"><font size = "16" >PioggiaSu-\nVetro</font></string>
+    <string name="OCEAN_WAVES_TEXT_VIEW_LABEL"><font size = "16" >onde-\nOceaniche</font></string>
+    <string name="THUNDER_TEXT_VIEW_LABEL"><font size = "16" >Tuono</font></string>
+    <string name="WIND_TEXT_VIEW_LABEL"><font size = "16" >Vento</font></string>
+    <string name="WIND_ON_TREES_LABEL"><font size = "16" > VentoTraGli-\nAlberi</font></string>
+    <string name="WATERFALLS_TEXT_VIEW_LABEL"><font size = "16" >Cascate</font></string>
+    <string name="BIRDS_TEXT_VIEW_LABEL"><font size = "16" >Uccelli</font></string>
+    <string name="PLAY_ALL_BUTTON_LABEL"><font size = "16" >Riproduci Tutto</font></string>
+    <string name="PAUSE_ALL_BUTTON_LABEL"><font size = "16" >Metti In Pausa Tutto</font></string>
+    <string name="PLAY_TIMER_BUTTON_LABEL"><font size = "16" >Riproduci Timer</font></string>
+    <string name="TIMER_DIALOG_TITLE">Scegli una durata</string>
+    <string name="CANCEL_BUTTON_LABEL">Annulla</string>
+    <string name="OK_BUTTON_LABEL">Ok</string>
+    <string name="PLAYING_SOUNDS_NOTIFICATION_NAME">Notifica di riproduzione di suoni</string>
+    <string name="PLAYING_SOUNDS_NOTIFICATION_DESCRIPTION">Impostare notifica di riproduzione di suoni</string>
+    <string name="PLAY_BUTTON_LABEL"><font size = "16" >Giocare</font></string>
+    <string name="PAUSE_BUTTON_LABEL"><font size = "16" >Pausa</font></string>
+    <string name="STOP_BUTTON_LABEL"><font size = "16" >Fermare</font></string>
+    <string name="CANCEL_TIMER_LABEL"><font size = "16" >Annulla Timer</font></string>
+    <string name="TEN_MINUTES_LABEL">10 minuti</string>
+    <string name="TWENTY_MINUTES_LABEL">20 minuti</string>
+    <string name="THIRTY_MINUTES_LABEL">30 minuti</string>
+    <string name="FOURTY_MINUTES_LABEL">40 minuti</string>
+    <string name="FIFTY_MINUTES_LABEL">50 minuti</string>
+    <string name="ONE_HOUR_LABEL">1 ora</string>
+    <string name="TWO_HOURS_LABEL">2 ore</string>
+    <string name="FOUR_HOURS_LABEL">4 ore</string>
+    <string name="EIGHT_HOURS_LABEL">8 ore</string>
+
+</resources>

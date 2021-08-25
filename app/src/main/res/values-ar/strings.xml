@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">أصوات الطبيعة</string>
+    <string name="RAIN_TEXT_VIEW_LABEL">مطر</string>
+    <string name="RAIN_ON_Glass_TEXT_VIEW_LABEL">مطر علي\nالزجاج</string>
+    <string name="OCEAN_WAVES_TEXT_VIEW_LABEL">أمواج\nالبحر</string>
+    <string name="THUNDER_TEXT_VIEW_LABEL">رعد</string>
+    <string name="WIND_TEXT_VIEW_LABEL">رياح</string>
+    <string name="WIND_ON_TREES_LABEL">رياح في\nالأشجار</string>
+    <string name="WATERFALLS_TEXT_VIEW_LABEL">شلالات</string>
+    <string name="BIRDS_TEXT_VIEW_LABEL">طيور</string>
+    <string name="PLAY_ALL_BUTTON_LABEL">تشغيل الكل</string>
+    <string name="PAUSE_ALL_BUTTON_LABEL">إيقاف الكل</string>
+    <string name="PLAY_TIMER_BUTTON_LABEL">تشغيل المؤقت</string>
+    <string name="TIMER_DIALOG_TITLE">إختر مدة</string>
+    <string name="CANCEL_BUTTON_LABEL">إلغاء</string>
+    <string name="OK_BUTTON_LABEL">تأكيد</string>
+    <string name="PLAYING_SOUNDS_NOTIFICATION_NAME">إشعار تشغيل الأصوات</string>
+    <string name="PLAYING_SOUNDS_NOTIFICATION_DESCRIPTION">ضبط إشغار تشغيل الأصوات</string>
+    <string name="PLAY_BUTTON_LABEL">تشغيل</string>
+    <string name="PAUSE_BUTTON_LABEL">إيقاف</string>
+    <string name="STOP_BUTTON_LABEL">إنهاء</string>
+    <string name="CANCEL_TIMER_LABEL">إلغاء المؤقت</string>
+    <string name="TEN_MINUTES_LABEL">۱۰ دقائق</string>
+    <string name="TWENTY_MINUTES_LABEL">۲۰ دقيقة</string>
+    <string name="THIRTY_MINUTES_LABEL">۳۰ دقيقة</string>
+    <string name="FOURTY_MINUTES_LABEL">٤۰ دقيقة</string>
+    <string name="FIFTY_MINUTES_LABEL">٥۰ دقيقة</string>
+    <string name="ONE_HOUR_LABEL">ساعة</string>
+    <string name="TWO_HOURS_LABEL">ساعتان</string>
+    <string name="FOUR_HOURS_LABEL">٤ ساعات</string>
+    <string name="EIGHT_HOURS_LABEL">۸ ساعات</string>
+
+</resources>

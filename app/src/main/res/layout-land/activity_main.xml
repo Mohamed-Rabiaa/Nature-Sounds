@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:tag="tabletLayout"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/rainTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="8dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginTop="16dp"
+        android:gravity="center"
+        android:text="@string/RAIN_TEXT_VIEW_LABEL"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toStartOf="@id/rainOnGlassTextView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/rainOnGlassTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/RAIN_ON_Glass_TEXT_VIEW_LABEL"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/rainTextView"
+        app:layout_constraintEnd_toStartOf="@+id/oceanWavesTextView"
+        app:layout_constraintTop_toTopOf="@id/rainTextView" />
+
+    <TextView
+        android:id="@+id/oceanWavesTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/OCEAN_WAVES_TEXT_VIEW_LABEL"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@id/rainOnGlassTextView"
+        app:layout_constraintEnd_toStartOf="@id/thunderTextView"
+        app:layout_constraintTop_toTopOf="@id/rainOnGlassTextView" />
+
+    <TextView
+        android:id="@+id/thunderTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/THUNDER_TEXT_VIEW_LABEL"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/oceanWavesTextView"
+        app:layout_constraintEnd_toStartOf="@+id/windTextView"
+        app:layout_constraintTop_toTopOf="@id/oceanWavesTextView" />
+
+    <TextView
+        android:id="@+id/windTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/WIND_TEXT_VIEW_LABEL"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/thunderTextView"
+        app:layout_constraintEnd_toStartOf="@+id/windInTreesTextView"
+        app:layout_constraintTop_toTopOf="@id/thunderTextView" />
+
+    <TextView
+        android:id="@+id/windInTreesTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/WIND_ON_TREES_LABEL"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/windTextView"
+        app:layout_constraintEnd_toStartOf="@+id/waterfallsTextView"
+        app:layout_constraintTop_toTopOf="@id/windTextView" />
+
+    <TextView
+        android:id="@+id/waterfallsTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/WATERFALLS_TEXT_VIEW_LABEL"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/windInTreesTextView"
+        app:layout_constraintEnd_toStartOf="@+id/birdsTextView"
+        app:layout_constraintTop_toTopOf="@id/windInTreesTextView" />
+
+    <TextView
+        android:id="@+id/birdsTextView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="8dp"
+        android:gravity="center"
+        android:text="@string/BIRDS_TEXT_VIEW_LABEL"
+        android:textColor="@color/colorAccent"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toEndOf="@+id/waterfallsTextView"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@id/waterfallsTextView" />
+
+    <SeekBar
+        android:id="@+id/rainSeekBar"
+        style="@style/Widget.AppCompat.SeekBar"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:layout_marginTop="32dp"
+        android:max="100"
+        android:maxHeight="1000dp"
+        android:progress="50"
+        android:rotation="270"
+        android:layoutDirection="ltr"
+        app:layout_constraintStart_toStartOf="@+id/rainTextView"
+        app:layout_constraintEnd_toEndOf="@+id/rainTextView"
+        app:layout_constraintTop_toBottomOf="@+id/rainTextView" />
+
+    <SeekBar
+        android:id="@+id/rainOnGlassSeekBar"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:max="100"
+        android:maxHeight="1000dp"
+        android:progress="50"
+        android:rotation="270"
+        android:layoutDirection="ltr"
+        app:layout_constraintStart_toStartOf="@id/rainOnGlassTextView"
+        app:layout_constraintEnd_toEndOf="@id/rainOnGlassTextView"
+        app:layout_constraintTop_toTopOf="@id/rainSeekBar" />
+
+    <SeekBar
+        android:id="@+id/oceanWavesSeekBar"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:max="100"
+        android:maxHeight="1000dp"
+        android:progress="50"
+        android:rotation="270"
+        android:layoutDirection="ltr"
+        app:layout_constraintStart_toStartOf="@id/oceanWavesTextView"
+        app:layout_constraintEnd_toEndOf="@id/oceanWavesTextView"
+        app:layout_constraintTop_toTopOf="@id/rainOnGlassSeekBar" />
+
+    <SeekBar
+        android:id="@+id/thunderSeekBar"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:max="100"
+        android:maxHeight="1000dp"
+        android:progress="50"
+        android:rotation="270"
+        android:layoutDirection="ltr"
+        app:layout_constraintStart_toStartOf="@id/thunderTextView"
+        app:layout_constraintEnd_toEndOf="@id/thunderTextView"
+        app:layout_constraintTop_toTopOf="@id/oceanWavesSeekBar" />
+
+    <SeekBar
+        android:id="@+id/windSeekBar"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:max="100"
+        android:maxHeight="1000dp"
+        android:progress="50"
+        android:rotation="270"
+        android:layoutDirection="ltr"
+        app:layout_constraintStart_toStartOf="@id/windTextView"
+        app:layout_constraintEnd_toEndOf="@id/windTextView"
+        app:layout_constraintTop_toTopOf="@id/thunderSeekBar" />
+
+    <SeekBar
+        android:id="@+id/windInTreesSeekBar"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:max="100"
+        android:maxHeight="1000dp"
+        android:progress="50"
+        android:rotation="270"
+        android:layoutDirection="ltr"
+        app:layout_constraintStart_toStartOf="@id/windInTreesTextView"
+        app:layout_constraintEnd_toEndOf="@id/windInTreesTextView"
+        app:layout_constraintTop_toTopOf="@id/windSeekBar" />
+
+    <SeekBar
+        android:id="@+id/waterfallsSeekBar"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:max="100"
+        android:maxHeight="1000dp"
+        android:progress="50"
+        android:rotation="270"
+        android:layoutDirection="ltr"
+        app:layout_constraintStart_toStartOf="@id/waterfallsTextView"
+        app:layout_constraintEnd_toEndOf="@id/waterfallsTextView"
+        app:layout_constraintTop_toTopOf="@id/windInTreesSeekBar" />
+
+    <SeekBar
+        android:id="@+id/birdsSeekBar"
+        android:layout_width="100dp"
+        android:layout_height="90dp"
+        android:max="100"
+        android:maxHeight="1000dp"
+        android:progress="50"
+        android:rotation="270"
+        android:layoutDirection="ltr"
+        app:layout_constraintStart_toStartOf="@id/birdsTextView"
+        app:layout_constraintEnd_toEndOf="@id/birdsTextView"
+        app:layout_constraintTop_toTopOf="@id/waterfallsSeekBar" />
+
+    <ImageButton
+        android:id="@+id/rainImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="@id/rainSeekBar"
+        app:layout_constraintEnd_toEndOf="@id/rainSeekBar"
+        app:layout_constraintTop_toBottomOf="@id/rainSeekBar"
+        app:srcCompat="@drawable/main_activity_layout_play_icon"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/rainOnGlassImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="@id/rainOnGlassSeekBar"
+        app:layout_constraintEnd_toEndOf="@id/rainOnGlassSeekBar"
+        app:layout_constraintTop_toTopOf="@id/rainImageButton"
+        app:srcCompat="@drawable/main_activity_layout_play_icon"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/oceanWavesImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="@id/oceanWavesSeekBar"
+        app:layout_constraintEnd_toEndOf="@id/oceanWavesSeekBar"
+        app:layout_constraintTop_toTopOf="@id/rainOnGlassImageButton"
+        app:srcCompat="@drawable/main_activity_layout_play_icon"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/thunderImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="@id/thunderSeekBar"
+        app:layout_constraintEnd_toEndOf="@id/thunderSeekBar"
+        app:layout_constraintTop_toTopOf="@id/oceanWavesImageButton"
+        app:srcCompat="@drawable/main_activity_layout_play_icon"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/windImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="@id/windSeekBar"
+        app:layout_constraintEnd_toEndOf="@id/windSeekBar"
+        app:layout_constraintTop_toTopOf="@id/thunderImageButton"
+        app:srcCompat="@drawable/main_activity_layout_play_icon"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/windInTreesImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="@id/windInTreesSeekBar"
+        app:layout_constraintEnd_toEndOf="@id/windInTreesSeekBar"
+        app:layout_constraintTop_toTopOf="@id/windImageButton"
+        app:srcCompat="@drawable/main_activity_layout_play_icon"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/waterfallsImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="@id/waterfallsSeekBar"
+        app:layout_constraintEnd_toEndOf="@id/waterfallsSeekBar"
+        app:layout_constraintTop_toTopOf="@id/windInTreesImageButton"
+        app:srcCompat="@drawable/main_activity_layout_play_icon"
+        tools:ignore="VectorDrawableCompat" />
+
+    <ImageButton
+        android:id="@+id/birdsImageButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="@android:color/transparent"
+        android:onClick="onClick"
+        app:layout_constraintStart_toStartOf="@id/birdsSeekBar"
+        app:layout_constraintEnd_toEndOf="@id/birdsSeekBar"
+        app:layout_constraintTop_toTopOf="@id/waterfallsImageButton"
+        app:srcCompat="@drawable/main_activity_layout_play_icon"
+        tools:ignore="VectorDrawableCompat" />
+
+    <Button
+        android:id="@+id/runAllButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:onClick="runAllSounds"
+        android:text="@string/PLAY_ALL_BUTTON_LABEL"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="@id/oceanWavesImageButton"
+        app:layout_constraintStart_toStartOf="@id/rainImageButton"
+        app:layout_constraintTop_toBottomOf="@id/rainImageButton" />
+
+    <Button
+        android:id="@+id/runTimerButton"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:onClick="runTimerOnClick"
+        android:text="@string/PLAY_TIMER_BUTTON_LABEL"
+        android:textAllCaps="false"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@id/windInTreesImageButton"
+        app:layout_constraintEnd_toEndOf="@id/birdsImageButton"
+        app:layout_constraintTop_toTopOf="@id/runAllButton" />
+
+    <FrameLayout
+        android:id="@+id/adviewContainer"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/runAllButton"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+    </FrameLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
