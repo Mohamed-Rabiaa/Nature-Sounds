@@ -97,11 +97,11 @@ public class TimerDialogFragment extends DialogFragment {
 
     public interface  TimerDialogFragmentListener {
 
-        public void singleChoiceItemsOnClick(DialogFragment dialogFragment,int which);
+        void singleChoiceItemsOnClick(DialogFragment dialogFragment,int which);
 
-        public void  negativeButtonOnclick(DialogFragment dialogFragment);
+        void  negativeButtonOnclick(DialogFragment dialogFragment);
 
-        public void positiveButtonOnClick(DialogFragment dialogFragment);
+        void positiveButtonOnClick(DialogFragment dialogFragment);
     }
 
     @Override
